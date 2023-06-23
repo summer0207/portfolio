@@ -1,0 +1,61 @@
+@charset "utf-8";
+.onair{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto; 
+    /* background-color: antiquewhite; */
+}
+.onair > span{
+    height: 37px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700px;
+    line-height: 37px;
+    float: left;
+}
+.onair > label{
+    width: 100px;
+    height: 37px;
+    background-image: url("../contents/more.png");
+    background-repeat: no-repeat;
+    margin-left: 825px;
+    cursor: pointer;
+}
+.onair > ul{
+    width: 900px;
+    height: 413px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    position: absolute;
+}
+.onair > ul:nth-of-type(2){
+    display: none;
+}
+.onair > ul > li{
+    width: 200px;
+    height: 170px;
+    background-color: lavenderblush;
+    margin-right: 19px;
+    margin-bottom: 31px;
+    float: left;
+    /* transition: all 3s ease;
+    opacity: 1; */
+}
+.onair > ul > li:nth-of-type(4){
+    margin-right: 0;
+}
+.onair > ul > li:nth-of-type(8){
+    margin-right: 0;
+}
+.onair > div{
+    width: 280px;
+    height: 450px;
+    background-image: url("../banner/ad_banner.png");
+    background-repeat: no-repeat;
+    margin-top: -37px;
+    margin-left: 920px;
+    cursor: pointer;
+}

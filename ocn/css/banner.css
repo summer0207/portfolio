@@ -1,0 +1,74 @@
+@charset "utf-8";
+.banner{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.banners{
+    height: inherit;
+    position: absolute;
+}
+.banners > li{
+    width: 1200px;
+    height: inherit;
+    float: left;
+}
+.banners >li:nth-of-type(1){
+    background-color: cadetblue;
+}
+.banners >li:nth-of-type(2){
+    background-color: lightblue;
+}
+.banners >li:nth-of-type(3){
+    background-color: lavenderblush;
+}
+.disc{
+    display: inline-block;
+    height: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.disc > li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.disc > li:nth-of-type(1){
+    background-color: white;
+}
+/* .disc > li:nth-of-type(4){
+    margin-right: 0px;
+} */
+.aright{
+    background-image: url("../banner/leftbtn.png");
+    width: 60px;
+    height: 60px;
+    z-index: 6;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top :220px;
+    left: 20px;
+
+}
+.aleft{
+    background-image: url("../banner/rightbtn.png");
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 220px;
+    right: 20px;
+
+}

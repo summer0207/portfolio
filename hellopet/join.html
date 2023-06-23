@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./join.css?v=2">
+<script src="./join.js?v=1"></script>
+<form method="post" action="id_search.php" id="joinf">
+<div class="join_box">
+    <span>MEMBER JOIN</span>
+    <span id="join_close">X</span>
+    <div class="all_ck">
+    <span><input type="checkbox" class="join_check" onclick="joincheck()" id="join_check1">전체동의</span>
+    <span><input type="checkbox" class="join_check" id="join_check2" name="agree1" value="Y">서비스 약관에 동의</span>
+    <span><input type="checkbox" class="join_check" id="join_check3" name="agree2" value="Y">이메일 정책 약관에 동의</span>
+    <span><input type="checkbox" class="join_check" id="join_check4" name="agree3" value="Y">개인정보처리 약관에 동의</span>
+    </div>
+
+    <input type="text" class="join_id" placeholder="아이디를 입력하세요." name="m_id">
+    <input type="button" class="join_jb" value="중복체크">
+    <input type="text" class="join_pw" placeholder="고객명을 입력해주세요" name="m_name">
+    <input type="text" class="join_pw" placeholder="패스워드를 입력하세요(최소 5자 이상)" name="m_passwd">
+    <input type="text" class="join_pw" placeholder="동일한 패스워드를 입력하세요.">
+    <input type="text" class="join_pw" placeholder='연락처를 입력하세요 "-"미포함' name="m_hp">
+    <input type="text" class="join_pw" placeholder="이메일 주소를 입력하세요" name="m_email">
+    <div>보안코드 번호</div>
+    <input type="text" class="join_pw" id="join_pw1" value="" readonly name="m_security">
+    <input type="text" class="join_pw" placeholder="보안코드 6자리를 입력하세요." name="hellopet">
+    <input type="button" class="join_last" value="회원가입" id="join_last">
+</div>
+</form>

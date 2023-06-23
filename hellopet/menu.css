@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+
+.menu_css{
+
+    width:90%;
+    max-width: 580px;
+    height:630px;
+    margin: 0; padding-left:5%; padding-right:5%;    
+    z-index:10;
+    right:100%;
+    
+    background-color: white;
+    position:absolute;
+}
+
+.menu_btn{
+    margin:0 auto;
+    width:90%;
+    margin-top:20px;
+    height:30px;
+    position:relative;
+}
+
+.menu_btn>span{
+    
+    width:100px;
+    height:30px;
+    background-color: black;
+    color: white;
+    position:absolute;
+    font-size:14px;
+    text-align: center;
+    line-height: 30px;
+    
+    
+   
+}
+
+.menu_btn>span:nth-child(2){
+   right:0%;
+}
+
+.menu_ico{
+    margin: 0 auto;
+    height:60px;
+    width:inherit;
+    
+    margin-top:20px;
+
+}
+.btn_div>span{
+   
+
+    box-sizing: border-box;
+    width:60px;
+    height:60px;
+    border:1px solid black;
+    float:left;
+    text-align: center;
+    font-size: 14px;
+
+}
+.btn_div>span:first-child{
+    margin-left:0;
+}
+.btn_div>span:last-child{
+    margin-right:0;
+}
+.btn_div>span>section{
+    width:20px;height:20px;
+    
+    margin:0 auto;
+    margin-top:25%;
+}
+.s1{
+    background-image: url("./btn/mic.svg");
+    background-size: cover;   
+}
+.s2{
+    background-image: url("./btn/help.svg");
+    background-size: cover;    
+}
+.s3{
+    background-image: url("./btn/review.svg");
+    background-size: cover;    
+}
+.s4{
+    background-image: url("./btn/faq.svg");
+    background-size: cover;    
+}
+
+
+.menu_qna{
+    margin:0 auto;
+width:inherit;
+height:155px;
+margin-top:20px;
+border: 1px solid black;
+position: relative;
+
+}
+.menu_qna>span{
+    display: block;
+    width:100px;
+    height:14px;
+    background-color: white;
+    position:absolute;
+    color:black;
+    top:-7%;
+    left:2%;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.m_qna{
+    margin-top:5px;
+    list-style: disc;
+    height:auto;
+    width:inherit;
+}
+.m_qna>li{
+    
+    margin-left:6%;
+    margin-top:3%;
+    font-size:10px;
+}
+
+.menu_ac{
+    margin:0 auto;
+    margin-top:20px;
+    width:inherit;
+    height:60px;
+    font-size: 16px;
+    border: 1px solid black;
+
+}
+.menu_ac>span{
+    height:30px;
+    
+}
+
+.btn_div{
+    width:25%;
+    height:inherit;
+    
+    float:left;
+    position: relative;
+}
+.menu_cs{
+    margin: 0 auto;
+   margin-top:20px;
+    width:inherit;
+    height:190px;
+    border: 1px solid black;
+}
+/* 블랙스크린 해야함*/
+
+.cs_ul>li{
+    margin-left:2%;
+    font-size:13px;
+    
+}
+.cs_ul>li:nth-child(1){
+    font-size:15px;
+    
+    margin-top:3%;
+    
+}
+.cs_ul>li:nth-child(2){
+    font-size:17px;
+    font-weight: bold;
+    margin-top:3%;
+    
+}
+.cs_ul>li:nth-child(3){
+    margin-top:3%;
+}
+
+.m_div{
+    width:200px;
+    height:40px;
+    border: 1px solid black;
+    
+    margin:0 auto;
+    margin-top:5px;
+    line-height: 40px;
+    text-align: center;
+    text-indent: -10px;
+    
+    
+    
+    
+
+
+
+}
+.m_s5{
+    width:20px;
+    height:20px;
+    background-image: url("./btn/headset.svg");
+    background-size: cover;
+    position:relative;
+    top:10px;
+    float:left;
+    left:20px;
+}

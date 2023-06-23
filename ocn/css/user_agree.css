@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+.agree_all{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.agree_all > div{
+    width: 1100px;
+    margin: 0 auto;
+}
+.member_ship{
+    width: 1100px;
+    height: 60px;
+    border-bottom: 1px solid #F6C757;
+}
+.member_ship > span{
+    width: 120px;
+    height: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 60px;
+    float: left;
+}
+.member_ship > ul {
+    display: inline-block;
+    height: 60px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 620px;
+}
+.member_ship > ul > li{
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+.member_ship > ul > li:nth-of-type(1){
+    color: #FFA500;
+}
+.member_ship > ul > li:nth-of-type(2), .member_ship > ul > li:nth-of-type(4){
+    width: 30px;
+    height: 60px;
+    background-image: url("../images/step_on.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.member_agree{
+   margin-top: 30px;
+   margin-left: 20px;
+}
+.member_agree{
+    font-size: 13px;
+}
+.member_agree > div:nth-of-type(1){
+    height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 40px;
+}
+.member_agree > div:nth-of-type(2){
+    height: 30px;
+    line-height: 30px;
+    /* vertical-align: -4px; */
+}
+.ck{
+    vertical-align: -4px;
+}
+.member_agree > div > label > input{
+    width: 20px;
+    height: 20px;
+}
+.member_agree > div > label > a {
+    color: red;
+}
+.agree_box{
+    width: 1060px;
+    height: 150px;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+.btn{
+    width: 150px;
+    height: 45px;
+    background-color: #F8B923;
+    font-size: 13px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 25px;    
+    margin-bottom: 25px;  
+    cursor: pointer;
+}

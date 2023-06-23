@@ -1,0 +1,126 @@
+@charset "utf-8";
+.copyright{
+    width: 1200px;
+    height: 155px;
+    margin: 0 auto;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+.copyright > span{
+    width: 1200px;
+    height: 45px;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.all_notice{
+    width: 720px;
+    height: 45px;
+    color: #9F9F9F;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.all_notice > span{
+    width: 100px;
+    height: inherit;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700;
+    color: black;
+    float: left;
+}
+.all_notice > ul{
+    width: 580px;
+    float: left;
+    position: absolute;
+    left: 100px;
+}
+.all_notice > ul > li{
+    width: inherit;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 5px;
+}
+.corp{
+    width: 170px;
+    height: 35px;
+    border: 1px solid black;
+    line-height: 35px;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 110px;
+    /* overflow: hidden; */
+    text-indent: 5px;
+    cursor: pointer;
+}
+.corp > em{
+    font-style: normal;
+    position: absolute;
+    right: 6px;
+    top: 0px;
+    
+}
+.corp > ul{
+    width: inherit;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    right: -1px;
+    bottom: 34px;
+    border: 1px solid black;
+}
+.corp > ul > li{
+    width: inherit;
+    height: 30px;
+    line-height: 30px;
+}
+.corp2{
+    width: 170px;
+    height: 35px;
+    border: 1px solid black;
+    line-height: 35px;
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    left: 175px;
+    overflow: hidden;
+    text-indent: 5px;
+}
+.corp2 > em{
+    font-style: normal;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    cursor: pointer;
+}
+.corp2 > ul{
+    width: inherit;
+    height: auto;
+    border: 1px solid black;
+}
+.corp2 > ul > li{
+    width: inherit;
+    height: 30px;
+    line-height: 30px;
+}
+.copyright > label{
+    width: 1200px;
+    height: 110px;
+    background-color: #CCCCCC;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.copyright > label > span{
+    margin: 5px;
+}
+.confirm{
+    cursor: pointer;
+}

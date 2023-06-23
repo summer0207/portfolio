@@ -1,0 +1,154 @@
+.member_all{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.member_all > div{
+    width: 1100px;
+    margin: 0 auto;
+}
+.user_member{
+    width: 1100px;
+    height: 60px;
+    border-bottom: 1px solid #F6C757;
+    box-sizing: border-box;
+}
+.user_member > span{
+    width: 120px;
+    height: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 60px;
+    float: left;
+}
+.user_member > ul {
+    display: inline-block;
+    height: 60px;
+    font-size: 13px;
+    text-align: right;
+    line-height: 60px;
+    margin-left: 620px;
+}
+.user_member > ul > li{
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+.user_member > ul > li:nth-of-type(3){
+    color: #FFA500;
+}
+.user_member > ul > li:nth-of-type(2), .user_member > ul > li:nth-of-type(4){
+    width: 30px;
+    height: 60px;
+    background-image: url("../images/step_on.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+.user_join{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 30px;
+}
+.user_join > a{
+    font-size: 18px;
+    font-weight: 700px;   
+    height: 40px;
+    line-height: 40px;
+    /* position: relative;
+    top: 30px; */
+}
+.user_join > div{
+    font-size: 13px;
+}
+.user_join > div:nth-of-type(1){
+    padding-top: 10px;
+}
+.user_join > div > span{
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    background-color: #F8b923;
+    line-height: 40px;
+    text-indent: 7px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    border: 1px solid #f8b923;
+    box-sizing: border-box;
+    height: 30px;
+    margin-top: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #F8b923;
+    border: 0;
+    color: white;
+    margin-right: 5px;
+}
+.sel{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #f8b923;
+    box-sizing: border-box;
+}
+.addrs{
+    width: 900px;
+    height: 120px;
+}
+.user_join > div:nth-of-type(7) > span{
+    height: 120px;
+    line-height: 120px;
+}
+.user_join > div:nth-of-type(7)>input{
+    height: 30px;
+    border: 1px solid #f8b923;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.user_join > div:nth-of-type(7)>input:nth-of-type(2){
+    width: 150px;
+    height: 30px;
+    background-color: #F8b923;
+    box-sizing: border-box;
+    color: white;
+    vertical-align: -1px;
+}
+.user_join > div:nth-of-type(7)>input:nth-of-type(3),.user_join > div:nth-of-type(7)>input:nth-of-type(4){
+    width: 775px;
+}
+.user_join > div:nth-of-type(5)>input:nth-of-type(2){
+    width: 13px;
+    height: 13px;
+}
+
+.user_join > div:nth-of-type(2),.user_join > div:nth-of-type(3),.user_join > div:nth-of-type(4),.user_join > div:nth-of-type(5),.user_join > div:nth-of-type(6),.user_join > div:nth-of-type(7),.user_join > div:nth-of-type(8){
+    clear: both;
+}
+
+.user_join > .btn2{
+    display: inline-block;
+    margin-left: 155px;
+}
+.btn2 > input{
+    width: 150px;
+    height: 45px;
+    background-color: #F8b923;
+    color: white;
+    border: 0;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 45px;
+}
+.btn2 > input:nth-of-type(2){
+    background-color: gray;
+    margin-left: 5px;
+}
